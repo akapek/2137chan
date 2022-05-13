@@ -1,0 +1,16 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background: linear-gradient(to top,
+    rgba(180,195,34,0.16136363636363638), rgba(233,212,172,1) 84%); 
+    background-attachment: fixed;
+}
+#papierz{
+    width: 25vh;
+    height: 20vw;
+    margin: auto;
+}
+#papierz_div{
+    height: 100%;
+}
