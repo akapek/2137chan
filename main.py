@@ -10,10 +10,10 @@ def home():
     return render_template("base.html")
 
 
-@app.route('/favicon.ico')
-def favicon():
-    return send_from_directory(os.path.join(app.root_path, 'static'), 'images/papierz_anime.ico',
-                               mimetype='image/vnd.microsoft.icon')
+# @app.route('/favicon.ico')
+# def favicon():
+#     return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico',
+#                                mimetype='image/vnd.microsoft.icon')
 
 
 if __name__ == "__main__":
