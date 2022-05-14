@@ -26,9 +26,13 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20rem;
+    /* margin-left: 20rem;
     margin-right: 20rem;
+    margin-top: 1rem; */
+    margin: auto;
+    margin-top: 2rem;
     border: 1px solid blue;
-    margin-top: 1rem;
-    /* width: clamp(200px, 50vh, 600px); */
+    
+  
+    width: 45rem;
 }
