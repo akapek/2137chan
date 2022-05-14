@@ -35,10 +35,14 @@ div{
     border: 1px solid blue;
     width: 45rem;
     flex-direction: column;
+    
 }
 #heading_div{
    
    border: 1px solid green;
+   position: relative;
+   
+   left: -200px;
 
     
 }
