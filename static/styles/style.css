@@ -5,6 +5,7 @@ body{
     background: linear-gradient(to top,
     rgba(180,195,34,0.16136363636363638), rgba(233,212,172,1) 84%); 
     background-attachment: fixed;
+    font-family: sans-serif;
 }
 #papierz{
     width: 150px;
@@ -12,7 +13,7 @@ body{
     
 }
 #papierz_div{
-    border: 1px solid red;
+    
     max-width: fit-content;
     display: block;
     margin: auto;
@@ -24,25 +25,50 @@ div{
 }
 #outer_div_table{
     background-color: rgb(240, 231, 190);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* margin-left: 20rem;
-    margin-right: 20rem;
-    margin-top: 1rem; */
     margin: auto;
-    margin-top: 2rem;
-    border: 1px solid blue;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid black;
     width: 45rem;
     flex-direction: column;
     
 }
 #heading_div{
-   
-   border: 1px solid green;
-   position: relative;
-   
-   left: -200px;
+    font-size: 1.5rem;
+   margin-bottom: 0.5rem;
+   padding: 0.25rem;
+   background-color: hsl(34, 79%, 58%);
+}
+#div_announce{
+    padding: 0.25rem;
+    font-size: 1rem;
+}
+#div_rules{
+    margin-top: 0.5rem;
+    background-color: hsla(34, 79%, 58%, 0.623);
+    padding: 0.25rem;
+}
+#boards_outer_div{
+    border: 1px solid black;
+    margin: auto;
+    width: 45rem;
+}
+#boards_heading_div{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.25rem;
+    background-color: hsl(34, 79%, 58%);
+}
+#boards_table_div_outer{
+    display: flex;
+    flex-direction: row;
+}
 
+#b_vg, #b_anime, #b_b, #b_pol, #b_int, #b_cre, #b_other, #b_tele{
+    margin: 0.5rem;
+    max-width: fit-content;
+    text-align: left;
+    white-space: nowrap;
+    font-size: 1rem;
     
 }
